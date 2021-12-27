@@ -12,8 +12,11 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            HousesOfTheHoly();
+        }
 
-
+        private static void HousesOfTheHoly()
+        {
             using var context = new ChinookContext();
             var housesOfTheHoly = context
                 .Album
